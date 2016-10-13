@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #f33;
   font-family: "Bevan", cursive;
- line-height: 1.5rem;
+  line-height: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -10,6 +10,12 @@ html {
 }
 
 
+
+
+.cards a:hover {
+  background-color: #f33;
+  color: #fff;
+}
 
 
 
