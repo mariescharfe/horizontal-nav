@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: lightgrey;
+  background-color: #dbd6cf;
   font-family: "Helvetica";
   line-height: 1.5rem;
   color: #fff;
@@ -14,14 +14,15 @@ html {
 body {
   background-color: #79756f;
   border-color: #79756f;
-  border: 5px solid #595652;
+  border: 3px solid #595652;
   border-left: none;
   border-right: none;
-  margin: 0px;
+  margin: 0;
 }
 
 h1 {
-  font-family: "Bevan", cursive;
+  font-family: "Bevan", serif;
+  margin-bottom: 10px;
 }
 
 .cards {
@@ -51,15 +52,3 @@ li a {
   background-color: #f33;
   color: #fff;
 }
-
-
-
-
-`#fff` white,
-`#79756f` box grey,
-`#595652` border grey,
-`#713837` dark red,
-`#f33 red`
-
-- *Paddings:* `.6em`, `0.5em 0.75em`
-- *Margin:* `0.3em`
